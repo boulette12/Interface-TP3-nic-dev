@@ -1,0 +1,22 @@
+<Window x:Class="GestionHoraire.Aide"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GestionHoraire"
+        mc:Ignorable="d"
+        Title="Aide" Height="450" Width="400">
+  <RichTextBox Background="LightYellow" IsReadOnly="True">
+    <FlowDocument>
+      <Paragraph>
+        Comment utiliser ce logiciel: cliquez sur les bouttons et tout ce fait par magie.
+      </Paragraph>
+      <Paragraph>
+        Logiciel : Gestion horaire
+      </Paragraph>
+      <Paragraph>
+        Concepteur: Philippe Bourassa, Nicholas Massé et Simon Landry
+      </Paragraph>
+    </FlowDocument>
+  </RichTextBox>
+</Window>
